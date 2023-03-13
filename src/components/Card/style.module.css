@@ -1,0 +1,47 @@
+.card {
+  border: 1px solid #EAEAEA;
+  border-radius: 10px;
+  width: 38.4rem;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+}
+
+.container {
+  margin: 1.6rem;
+  background: #fff;
+}
+
+.container h2 {
+  font-size: 2rem;
+  line-height: 140%;
+
+  color: #121214;
+}
+
+.container p {
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 160%;
+  margin: 1.6rem 0;
+
+  color: rgba(0, 0, 0, 0.75);
+}
+
+.cardBottom {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.cardBottom svg {
+  color: #e45858;
+}
+
+.cardBottom span {
+  line-height: 160%;
+
+  color: rgba(0, 0, 0, 0.75);
+}

@@ -1,0 +1,72 @@
+.content {
+  max-width: 1216px;
+  margin: 10rem auto;
+}
+
+.top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 4rem;
+}
+
+.top h2 {
+  font-size: 3.2rem;
+  line-height: 140%;
+
+  color: #121214;
+}
+
+.top .view {
+  display: flex;
+  padding: 0.8rem;
+
+  border: 1px solid #eaeaea;
+  border-radius: 6px;
+}
+
+.view .primary {
+  padding: 0.4rem 2.4rem;
+
+  background: #6246ea;
+  border-radius: 5px;
+
+  font-weight: 700;
+  font-size: 1.4rem;
+  line-height: 2.4rem;
+
+  text-transform: uppercase;
+
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.view .primary:hover {
+  background: #523dbe;
+  color: #fff;
+}
+
+.view .secondary {
+  padding: 0.4rem 2.4rem;
+
+  border-radius: 5px;
+
+  font-weight: 700;
+  font-size: 1.4rem;
+  line-height: 2.4rem;
+
+  text-transform: uppercase;
+
+  color: #6246ea;
+  cursor: pointer;
+}
+
+.view .secondary:hover {
+  background: #fff;
+}
+
+.cards {
+  display: flex;
+  gap: 3.2rem;
+  flex-wrap: wrap;
+}
